@@ -55,20 +55,8 @@ Entire numbers in code column of the tidy_data replaced with corresponding activ
 
 * Appropriately labels the data set with descriptive variable names
 
-    code column in TidyData renamed into activities
-
-    All Acc in column’s name replaced by Accelerometer
-    
-    All Gyro in column’s name replaced by Gyroscope
-    
-    All BodyBody in column’s name replaced by Body
-    
-    All Mag in column’s name replaced by Magnitude
-    
-    All start with character f in column’s name replaced by Frequency
-    
-    All start with character t in column’s name replaced by Time
-
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
+
 * final_data is created by sumarizing tidy_data taking the means of each variable for each activity and each subject, after groupped by subject and activity.
+
 * Export final_data into FinalData.txt file.
